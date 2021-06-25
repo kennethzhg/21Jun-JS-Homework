@@ -1,0 +1,71 @@
+<!--
+Given an Array names = ["James", "Jack", "Flora", "Mikhil"].
+Write a Javascript code to find number of characters in each name and display them in the Browser! [note: not console.log()]
+Tips: To show the contents in HTML, use "document.getElementbyId" or "document.getElementbyClass" to access a DOM element (eg. <p> </p>) and change the text.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Names and No. of characters</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script src="Ex3.js"></script>
+  </head>
+  <style>body{
+      background-image: url("https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_09/3241786/200224-best-friends-stock-cs-1023a-3241786.jpg");
+      background-repeat:no-repeat;
+      background-size: cover;
+    }
+  </style>
+  <body>   
+    <h1>Name and No. of characters</h1>
+    <table>
+      <style>table,th,tr,td {border:solid; width:fit-content; padding: 5px; text-align: center; margin-top: 10px; margin-left: 20px;}</style>
+      <tr>
+        <th>S/N</th>
+        <th>NAME</th>
+        <th>NO. OF CHARACTERS</th>
+        <th>REVEAL?</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>JAMES</td>
+        <td id="JamesChar">?</td>
+        <td>
+          <button onclick="COUNTJAMES()">Yes!</button>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>JACK</td>
+        <td id="JackChar">?</td>
+        <td>
+          <button onclick="COUNTJACK()">Yes!</button>
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>FLORA</td>
+        <td id="FloraChar">?</td>
+        <td>
+          <button onclick="COUNTFLORA()">Yes!</button>
+        </td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>MIKHIL</td>
+        <td id="MikhilChar">?</td>
+        <td>
+          <button onclick="COUNTMIKHIL()">Yes!</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
