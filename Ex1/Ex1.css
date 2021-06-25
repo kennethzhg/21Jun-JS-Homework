@@ -1,0 +1,42 @@
+body,
+html {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+body {
+  height: 100%;
+  background-image: url("https://media1.tenor.com/images/98d87f356d3efea9cebb2e7fef3f399c/tenor.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  max-width: fit-content;
+  color: black;
+  background-color:lightsteelblue;
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  max-width: fit-content;
+  color: black;
+  background-color:lightsteelblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+        box-shadow: 0px 1px 0px 0px #fff6af;
+        background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+        background-color:#ffec64;
+        border-radius:6px;
+        border:1px solid #ffaa22;
+        display:inline-block;
+        cursor:pointer;
+        color:#333333;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:6px 24px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffee66;
+}
